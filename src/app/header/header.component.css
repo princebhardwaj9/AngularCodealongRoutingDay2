@@ -1,0 +1,35 @@
+#nav-container{
+    background-color: orangered;
+    text-decoration: none;
+    border: rgb(87, 84, 84) solid 3px;
+    border-radius: 10px;
+}
+
+#home a{
+    font-size: xx-large;
+    font-weight: 600;
+    color: white;
+}
+
+#home a:hover{
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    padding-right: 1.5em;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+#nav-link:hover{
+    color: rgb(0, 60, 255);
+}
